@@ -22,8 +22,8 @@ thhe design and realization of graph manipulation algorithms
 第三个算法：改进的Prim算法
         采取了详细的边分类的思想（将边分为三个状态，状态0的未选边，状态1的固定边，状态2的可选边），而这三种状态的确定依赖于分量扩张过程当中的四种处理情况。
         ![image](https://user-images.githubusercontent.com/48653806/124893821-aad1b980-e00d-11eb-9392-385836ffb08c.png)
-        ![Uploading image.png…]()
-        ![Uploading image.png…]()
+        ![image](https://user-images.githubusercontent.com/48653806/124894980-b70a4680-e00e-11eb-8337-265a5a386b6a.png)
+        ![image](https://user-images.githubusercontent.com/48653806/124895039-c25d7200-e00e-11eb-974b-a8b23ac5be32.png)
         第三个算法的核心思想在于简化图，将整个图划分为多个分量，每个分量的内部的部分最小生成树是确定的，而导致整个图出现多个最小生成树的原因在于这些分量之间的边的组合情况，决定了最终MST的数量。我们通过Prim算法进行分量扩张，再基于状态为1的边来完成分量合并，从而得到简化图，在简化图的基础之上进行改进的Kruskal算法，从而明显地提升算法地效率。（因为显著地减少了需要进行组合判断的边的数量，当然面对非常简单的图时，简化空间比较有限，可能会导致第三个算法效率不如第二个算法的情况出现，但是面对绝大多数图，第三个算法是要显著优于第二个算法的）
         
         
