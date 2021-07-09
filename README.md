@@ -1,5 +1,5 @@
 # GraphManipulationAlgorithms
-thhe design and realization of graph manipulation algorithms 
+the design and realization of graph manipulation algorithms 
 
 
 本科阶段的毕业设计：基于舞蹈链的图操作算法的设计与实现
@@ -28,5 +28,5 @@ thhe design and realization of graph manipulation algorithms
         
         
         
-        这个简述部分是我在完成毕业设计很长一段时间之后才写的，而且写的非常匆忙，因此只做了最基本的描述，并且没有检查，可能会出现一些错误。
+        该简述部分是我在完成毕业设计很长一段时间之后才写的，而且写的非常匆忙，因此只做了最基本的描述，并且没有检查，所以可能会出现一些错误。
 
